@@ -1,0 +1,4 @@
+/*
+Declara variables de distintos tipos.
+Muestra el tipo de cada una usando typeof.
+*/

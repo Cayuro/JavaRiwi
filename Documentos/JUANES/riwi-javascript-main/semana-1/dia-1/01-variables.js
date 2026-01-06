@@ -1,0 +1,4 @@
+/*
+Declara variables nombre y edad.
+Muestra un mensaje en consola usando esas variables.
+*/
