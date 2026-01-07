@@ -56,9 +56,11 @@
         }
     </style>
 </head>
+
 <body class="bg-background-light dark:bg-background-dark font-display text-[#111418] dark:text-gray-100 transition-colors duration-200">
 <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
-<!-- Header -->
+
+    <!-- Header -->
 <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-[#f0f2f4] dark:border-gray-800 bg-white dark:bg-[#1a2632] px-6 py-4 lg:px-10 sticky top-0 z-50">
 <div class="flex items-center gap-4">
 <div class="size-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
@@ -66,22 +68,26 @@
 </div>
 <h1 class="text-[#111418] dark:text-white text-lg lg:text-xl font-bold leading-tight tracking-[-0.015em]">JS Practice Dashboard</h1>
 </div>
-<button class="flex items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-blue-600 transition-colors gap-2">
+<button id="togglePage" class="flex items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-blue-600 transition-colors gap-2">
 <span class="material-symbols-outlined text-[20px]">dark_mode</span>
 <span class="hidden sm:inline truncate">Toggle Theme</span>
 </button>
 </header>
+
 <!-- Main Content -->
 <main class="flex-1 px-4 py-8 md:px-10 lg:px-20 xl:px-40">
 <div class="max-w-[1200px] mx-auto flex flex-col gap-8">
-<!-- Page Title -->
+
+    <!-- Page Title -->
 <div class="flex flex-col gap-2">
 <h2 class="text-[#111418] dark:text-white tracking-tight text-[28px] md:text-[32px] font-bold leading-tight">Interactive Utilities</h2>
 <p class="text-[#617589] dark:text-gray-400 text-base">A collection of vanilla JavaScript practice modules. Interact with the cards below.</p>
 </div>
+
 <!-- Utilities Grid -->
 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-<!-- Card 1: Greeting Generator -->
+
+    <!-- Card 1: Greeting Generator -->
 <div class="group flex flex-col bg-white dark:bg-[#1a2632] rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] dark:shadow-none border border-transparent dark:border-gray-800 overflow-hidden hover:shadow-lg transition-all duration-300">
 <div class="h-32 w-full bg-cover bg-center relative" data-alt="Laptop screen showing code editor with colorful syntax" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAnZ7_pBWrPSy5z1SEwRoaNDFzYZeFtaXS9JmHprEqJUkHYiAeWhEKzd2MmXOqy2tThlem_5NTfS2zNY6UFVwymQdLlk_KiKaAg_RKTjTPbS1bBtrg38lkmJwjrf4yeOfyeHplcDYkfMkR73AiLyOqql43WX1sspsuIDlqmWx5_p7Auo9XWXUp30fEDYi0LnsdDGqZfo7ogifGgFzeORbiK2qb3bcGyxWaguPIccq4L4HUTyvwFeW9qL0muJ61xAsNUlqp4vjwmvW4');">
 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -287,4 +293,5 @@
 <script src="ageValidation.js"></script>
 <script src="taskManager.js"></script>
 <script src="Toggle.js"></script>
+<script src="../../../../../toggle.js"></script>
 </body></html>
