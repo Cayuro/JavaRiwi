@@ -218,15 +218,15 @@
                         </div>
                         <div class="p-5 flex flex-col gap-4">
                             <div class="flex gap-2">
-                                <input id="taskInput"
+<!-- task Input lo tenemos aquí --> <input id="taskInput" 
                                     class="flex-1 h-10 rounded-lg border border-[#dbe0e6] dark:border-gray-600 bg-white dark:bg-[#101922] px-3 text-sm placeholder:text-[#617589] focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all dark:text-white"
                                     placeholder="Add a new task..." type="text" />
-                                <button id="btnAddTask"
+<!--Aquí Está el botón que nos agrega--><button id="btnAddTask"
                                     class="h-10 px-6 rounded-lg bg-primary hover:bg-blue-600 text-white text-sm font-bold shadow-sm transition-colors flex items-center">
                                     <span class="material-symbols-outlined text-[20px] mr-1">add_circle</span> Add
                                 </button>
                             </div>
-                            <div id="divTask"
+<!--Div que almacena los Task--><div id="divTask"
                                 class="flex flex-col gap-2 max-h-[180px] overflow-y-auto pr-1 logger-scroll">
 
                                 <!-- Task Item -->
@@ -234,7 +234,8 @@
                                     class="flex items-center justify-between p-3 rounded-lg border border-[#f0f2f4] dark:border-gray-700 bg-white dark:bg-[#101922] hover:border-primary/50 transition-colors group/item">
                                     <div class="flex items-center gap-3">
                                         <div
-                                            class="size-5 rounded border border-gray-300 dark:border-gray-600 flex items-center justify-center cursor-pointer hover:border-primary">
+                                            class="bg-primary size-5 rounded border border-gray-300 dark:border-gray-600 flex items-center justify-center cursor-pointer hover:border-primary">
+                                            <span class=" material-symbols-outlined text-white text-[16px]">check</span>
                                         </div>
                                         <span class="text-sm text-[#111418] dark:text-gray-200">Review DOM Manipulation
                                             documentation</span>
@@ -250,7 +251,8 @@
                                     class="flex items-center justify-between p-3 rounded-lg border border-[#f0f2f4] dark:border-gray-700 bg-white dark:bg-[#101922] hover:border-primary/50 transition-colors group/item">
                                     <div class="flex items-center gap-3">
                                         <div
-                                            class="size-5 rounded border border-gray-300 dark:border-gray-600 flex items-center justify-center cursor-pointer hover:border-primary">
+                                            class="bg-primary size-5 rounded border border-gray-300 dark:border-gray-600 flex items-center justify-center cursor-pointer hover:border-primary">
+                                            <span class=" material-symbols-outlined text-white text-[16px]">check</span>
                                         </div>
                                         <span class="text-sm text-[#111418] dark:text-gray-200">Practice array methods
                                             (map, filter, reduce)</span>
@@ -266,7 +268,7 @@
                                     class="flex items-center justify-between p-3 rounded-lg border border-[#f0f2f4] dark:border-gray-700 bg-white dark:bg-[#101922] hover:border-primary/50 transition-colors group/item">
                                     <div class="flex items-center gap-3">
                                         <div
-                                            class="size-5 rounded border-primary bg-primary flex items-center justify-center cursor-pointer">
+                                            class="bg-primary size-5 rounded border-primary bg-primary flex items-center justify-center cursor-pointer">
                                             <span class="material-symbols-outlined text-white text-[16px]">check</span>
                                         </div>
                                         <span class="text-sm text-gray-400 line-through">Setup development
@@ -279,6 +281,7 @@
                                 </div>
                             </div>
                         </div>
+                        <script src="taskDelQuesabe.js"></script>
                     </div>
 
 
@@ -376,7 +379,7 @@
     </div>
     <!-- <script src="counter.js"></script> -->
     <!-- <script src="Greet.js"></script> -->
-    <!-- <script src="ageValidation.js"></script> -->
+     <script src="ageValidation.js"></script> 
     <script src="taskManager2.js"></script>
     <!-- <script src="Toggle.js"></script> -->
 </body>
