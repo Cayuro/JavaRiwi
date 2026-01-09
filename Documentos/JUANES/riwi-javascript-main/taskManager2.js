@@ -33,6 +33,7 @@ btnAddTask.addEventListener('click',()=>{
 })
 
 
+
 // const taskInput = document.getElementById("taskInput");
 // const btnAddTask = document.getElementById("btnAddTask");
 // const taskManager = document.getElementById("divTask");
