@@ -35,7 +35,7 @@
 //     inputTaskManager.value = ""
 //  })
 
-const personas = {
+/* const personas = {
     nombre: "calvito",
     edad: 12,
     info: {
@@ -54,4 +54,4 @@ const personas = {
 let {nombre, info:{valor, locura:{quieto}}} = personas
 nombre = "Care loco inmundo"
 // valor = negativo
-console.log(nombre, valor, quieto)
+console.log(nombre, valor, quieto) */

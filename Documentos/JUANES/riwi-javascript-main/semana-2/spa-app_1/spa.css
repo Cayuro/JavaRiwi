@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 0.75rem;
+}
+
+button:hover{
+    color: green;
+    background-color: aliceblue;
+    transform: scale(1.1);
+}

@@ -1,4 +1,4 @@
-const taskInput = document.getElementById("taskInput");
+/* const taskInput = document.getElementById("taskInput");
 const btnAddTask = document.getElementById("btnAddTask");
 const taskManager = document.getElementById("divTask");
 
@@ -59,7 +59,7 @@ divTask.addEventListener('click', (e)=>{
     // const divCheck = divTask.querySelector('.size-5');
     // divCheck.removeAttribute('class')
 })
-
+ */
 
 // const taskInput = document.getElementById("taskInput");
 // const btnAddTask = document.getElementById("btnAddTask");
@@ -127,3 +127,10 @@ divTask.addEventListener('click', (e)=>{
 //         }
 //     }
 // });
+
+function Locura () {
+    joselito = ()=>{
+        console.log(this)
+    }
+}
+Locura()
