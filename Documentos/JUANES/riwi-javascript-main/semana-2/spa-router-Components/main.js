@@ -14,8 +14,8 @@ function Contact() {
   return `<h1>📩 Contacto</h1>`
 }
 
-function renderNotFound() {
-  app.innerHTML = '<h1>❌ 404</h1><p>Página no encontrada</p>';
+function NotFound() {
+  return '<h1>❌ 404</h1><p>Página no encontrada</p>';
 }
 
 // ==== el botón no lo pongo como componente ======
@@ -110,9 +110,13 @@ function router() {
       break;
     case '#/counter': // unico que no tengo con render
       renderCounter();
-      break
+      break;
+    case '':
+        render(Home());
+        break
     default:
-      render(Home());
+      render(NotFound());
+      break;
   } 
 }
 
