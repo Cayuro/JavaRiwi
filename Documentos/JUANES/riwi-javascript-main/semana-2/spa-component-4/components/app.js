@@ -8,7 +8,7 @@ const body = document.body;
 export function render(view){
     body.innerHTML = `
     <header>${navBar()}</header>
-    <main class="bg-red-500">
+    <main>
         ${view}
     </main>
     ${footer()}

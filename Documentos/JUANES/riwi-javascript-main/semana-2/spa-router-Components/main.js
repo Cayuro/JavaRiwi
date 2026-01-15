@@ -22,7 +22,6 @@ function NotFound() {
 
 function buttonCount(){
   return `
-    ${navBar}
     <h1>Contador</h1>
     <p>${counter}</p>
     <p>raíz cuadrada: ${Math.fround((counter**(1/2)))}</p>
@@ -36,7 +35,6 @@ function buttonCount(){
 
 let counter = 0;
 function renderCounter() {
-  app.innerHTML = buttonCount();
   
   const buttonAdd = document.getElementById('add');
   const buttonReset = document.getElementById('reset');
@@ -44,15 +42,15 @@ function renderCounter() {
 
   buttonAdd.onclick = () => {
     counter++;
-    renderCounter();
+    router();
   };
   buttonReset.onclick = ()=>{
     counter = 0;
-    renderCounter();
+    router();
   }
   buttonSubtract.onclick = ()=>{
     if (counter >0){counter--;}
-    renderCounter();
+    router();
   }
 
 };
@@ -81,18 +79,6 @@ function render(view){
     `;
 }
 
-// ROUTER LA FORMA COMO LOS LLAMA
-/* 
-function router() {
-  const route = location.hash;
-
-  if (route === '#/home') render(Home());
-  else if (route === '#/services') render(Services());
-  else if (route === '#/contact') render(Contact());
-//   else if (route === '#/counter') renderCounter(); //tiene un problema por que no renderizaría lo otro
-  else render(Home());
-} */
-
 //FUNCIÓN HACE LO MISMO PERO CON SWITCH más odenado
 
 function router() {
@@ -109,6 +95,7 @@ function router() {
       render(Contact());
       break;
     case '#/counter': // unico que no tengo con render
+      render(buttonCount());
       renderCounter();
       break;
     case '':
@@ -122,4 +109,3 @@ function router() {
 
 window.addEventListener('hashchange', router);
 window.addEventListener('load', router);
-// esto es lo que quiero subir
