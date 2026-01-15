@@ -4,7 +4,7 @@ import { Services } from '../views/services.js';
 import { NotFound } from '../views/notFound.js';
 import { render } from '../app.js';
 import { buttonCount,renderCounter } from '../views/counter.js';
-import { loggin } from '../views/loggin.js';
+import { loggin, formm} from '../views/loggin.js';
 
 
 export function router(){
@@ -26,9 +26,11 @@ export function router(){
             break
         case '#/loggin':
         document.body.innerHTML = loggin();
+        formm()
             break;
         case '':
             document.body.innerHTML = loggin();
+            formm();
             break;
         default:
             render(NotFound());
