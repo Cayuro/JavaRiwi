@@ -118,3 +118,4 @@ function router() {
 
 window.addEventListener('hashchange', router);
 window.addEventListener('load', router);
+// esto es lo que quiero subir

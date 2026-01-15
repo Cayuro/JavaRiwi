@@ -14,3 +14,4 @@ document.getElementById('home').addEventListener('click',renderHome)
 document.getElementById('services').addEventListener('click',renderServices)
 document.getElementById('contact').addEventListener('click',renderContact)
 
+// todo esto subirlos
