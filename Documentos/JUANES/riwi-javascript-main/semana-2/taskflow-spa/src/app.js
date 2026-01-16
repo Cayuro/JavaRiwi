@@ -1,25 +1,24 @@
 import { navBar } from "./components/navBar.js";
 import { footer } from "./components/footer.js";
 import { taskCard } from "./components/taskCard.js";
+import { router } from "./router/router.js";
 
 const body = document.body;
 
 export function render(view){
-    const htmlDentro = `
+    body.innerHTML = `
     ${navBar()}
     ${taskCard()}
     <main id='app'>${view}</main>
     ${footer()}
     `
-    body.innerHTML = htmlDentro
 }
 
 export function renderOut(view){
-    const htmlFuera = `
+    body.innerHTML= `
     <main id='app'>${view}</main>
     ${footer()}
     `
-    body.innerHTML = htmlFuera
 }
 
 window.addEventListener('hashchange', router);

@@ -1,6 +1,6 @@
 export function footer(){
     return `
-    <h1>Derechos de autor - Juanes</h1>
+    <h3>Derechos de autor - Juanes</h3>
     <p>Esté task fue desarrollado por juanes</p>
     `
 }
