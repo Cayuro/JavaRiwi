@@ -10,7 +10,7 @@ export function tasks(){
     `
     }
     // Generamos el HTML de todas las tareas uniendo los strings con .join('')
-    const taskHTML = store.tasks.map(task => taskCard(task).join(''))
+    const taskHTML = store.tasks.map(task => taskCard(task)).join('')
     
     return`
     <div class="tasks-container">

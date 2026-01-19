@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #222;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 3rem 1.4rem;
+  border: 1px solid #ccc;
+  padding: 5px 6px;
+  margin: 5px 6px;
+}
+
+.completed {
+  background: #c8ffc8;
+}
+#root > main > div > h3{
+  grid-column: 1/3;
+  text-justify: start;
+  text-align: center;
+}
+h3.completed {
+  text-decoration: line-through;
+}

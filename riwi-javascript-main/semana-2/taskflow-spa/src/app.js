@@ -8,7 +8,6 @@ const body = document.body;
 export function render(view){
     body.innerHTML = `
     ${navBar()}
-    ${taskCard()}
     <main id='app'>${view}</main>
     ${footer()}
     `
