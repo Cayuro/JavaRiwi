@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+#app > main > section > a{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: aquamarine;
+}
+#app > main > section > a > div{
+  color: #1ba100;
+}
