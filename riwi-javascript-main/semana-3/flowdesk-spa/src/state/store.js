@@ -7,5 +7,7 @@ export const store = {
     },
     { id: 20, name: 'Calvearse mi loco mañana', status: 'Dandole duro locs'
     }
-  ]
+  ],
+  loading: false,
+  error: false
 };

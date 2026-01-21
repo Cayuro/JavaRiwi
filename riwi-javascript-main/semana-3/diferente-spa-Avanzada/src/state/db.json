@@ -1,0 +1,63 @@
+{
+  "projects": [
+    { "id": 1, "title": "Recuperación de parques barriales", "status": "Active" },
+    { "id": 2, "title": "Programa de reciclaje comunitario", "status": "Active" },
+    { "id": 3, "title": "Educación ambiental en colegios públicos", "status": "Active" },
+    { "id": 4, "title": "Huertas urbanas sostenibles", "status": "Inactive" },
+    { "id": 5, "title": "Limpieza y protección de ríos urbanos", "status": "Active" },
+
+    { "id": 6, "title": "Fortalecimiento de bibliotecas comunitarias", "status": "Active" },
+    { "id": 7, "title": "Capacitación digital para jóvenes", "status": "Active" },
+    { "id": 8, "title": "Alfabetización tecnológica para adultos mayores", "status": "Inactive" },
+    { "id": 9, "title": "Plataforma de empleo juvenil local", "status": "Active" },
+    { "id": 10, "title": "Programa de mentorías estudiantiles", "status": "Active" },
+
+    { "id": 11, "title": "Red de apoyo a emprendedores locales", "status": "Active" },
+    { "id": 12, "title": "Fomento de economía circular", "status": "Inactive" },
+    { "id": 13, "title": "Mercados campesinos sostenibles", "status": "Active" },
+    { "id": 14, "title": "Capacitación en finanzas personales", "status": "Active" },
+    { "id": 15, "title": "Inclusión financiera para microempresas", "status": "Inactive" },
+
+    { "id": 16, "title": "Salud preventiva en zonas rurales", "status": "Active" },
+    { "id": 17, "title": "Atención psicosocial comunitaria", "status": "Active" },
+    { "id": 18, "title": "Promoción de hábitos de vida saludable", "status": "Active" },
+    { "id": 19, "title": "Telemedicina para poblaciones apartadas", "status": "Inactive" },
+    { "id": 20, "title": "Jornadas de vacunación infantil", "status": "Active" },
+
+    { "id": 21, "title": "Prevención de deserción escolar", "status": "Active" },
+    { "id": 22, "title": "Refuerzo académico en matemáticas y lectura", "status": "Active" },
+    { "id": 23, "title": "Formación docente en herramientas digitales", "status": "Inactive" },
+    { "id": 24, "title": "Aulas virtuales para educación rural", "status": "Active" },
+    { "id": 25, "title": "Acceso a conectividad en zonas vulnerables", "status": "Active" },
+
+    { "id": 26, "title": "Movilidad sostenible en barrios urbanos", "status": "Active" },
+    { "id": 27, "title": "Optimización del transporte público local", "status": "Inactive" },
+    { "id": 28, "title": "Ciclorutas seguras para la ciudad", "status": "Active" },
+    { "id": 29, "title": "Seguridad vial en entornos escolares", "status": "Active" },
+    { "id": 30, "title": "Gestión inteligente de semáforos", "status": "Inactive" },
+
+    { "id": 31, "title": "Protección de fauna silvestre urbana", "status": "Active" },
+    { "id": 32, "title": "Reforestación de zonas degradadas", "status": "Active" },
+    { "id": 33, "title": "Control de residuos sólidos urbanos", "status": "Active" },
+    { "id": 34, "title": "Monitoreo de calidad del aire", "status": "Inactive" },
+    { "id": 35, "title": "Gestión eficiente del recurso hídrico", "status": "Active" },
+
+    { "id": 36, "title": "Cultura ciudadana y convivencia", "status": "Active" },
+    { "id": 37, "title": "Prevención de violencia intrafamiliar", "status": "Active" },
+    { "id": 38, "title": "Fortalecimiento de liderazgo comunitario", "status": "Inactive" },
+    { "id": 39, "title": "Participación ciudadana digital", "status": "Active" },
+    { "id": 40, "title": "Presupuestos participativos locales", "status": "Active" },
+
+    { "id": 41, "title": "Promoción de cultura y arte comunitario", "status": "Active" },
+    { "id": 42, "title": "Escuelas de música y danza barrial", "status": "Inactive" },
+    { "id": 43, "title": "Festivales culturales regionales", "status": "Active" },
+    { "id": 44, "title": "Rescate de memoria histórica local", "status": "Active" },
+    { "id": 45, "title": "Biblioteca digital comunitaria", "status": "Inactive" },
+
+    { "id": 46, "title": "Innovación social con tecnología", "status": "Active" },
+    { "id": 47, "title": "Laboratorios ciudadanos de innovación", "status": "Active" },
+    { "id": 48, "title": "Gobierno digital y servicios en línea", "status": "Active" },
+    { "id": 49, "title": "Datos abiertos para la ciudadanía", "status": "Inactive" },
+    { "id": 50, "title": "Transparencia y control social", "status": "Active" }
+  ]
+}
