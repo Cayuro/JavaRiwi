@@ -8,7 +8,7 @@ document.addEventListener('click', (e) => {
   if (!action) return;
 
   if (action === 'login') {
-    store.user = 'Angela';
+    store.user = 'Juanes el loco';
     render(Dashboard());
   }
 
