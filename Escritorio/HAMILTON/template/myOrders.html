@@ -1,0 +1,119 @@
+<section class="myorders-section">
+    <header class="myorders-header">
+        <h2>📦 Mis Pedidos</h2>
+        <a href="#menu" class="back-link">← Volver al Menú</a>
+    </header>
+
+    <div id="orders-container" class="orders-container">
+        <!-- Orders will be rendered here -->
+    </div>
+</section>
+
+<style>
+.order-timeline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.timeline-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.timeline-step.completed {
+    opacity: 1;
+}
+
+.timeline-step.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.timeline-step .step-icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.timeline-step .step-label {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.timeline-step.completed .step-label {
+    color: #28a745;
+}
+
+.timeline-step.active .step-label {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+
+.progress-step .step-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.progress-step.active .step-dot {
+    background: #007bff;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.progress-step.current .step-dot {
+    background: #28a745;
+    color: white;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+}
+
+.progress-step .step-line {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 100%;
+    height: 3px;
+    background: #e9ecef;
+    z-index: 1;
+}
+
+.progress-step .step-line.filled {
+    background: #28a745;
+}
+</style>
+

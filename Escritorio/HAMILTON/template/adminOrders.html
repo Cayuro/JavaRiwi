@@ -1,0 +1,68 @@
+<section class="admin-section">
+    <header class="admin-header">
+        <h2>📊 Panel de Administración</h2>
+        <div class="admin-info">
+            <span id="admin-welcome">Bienvenido</span>
+            <a href="#logout" class="logout-btn">Cerrar Sesión</a>
+        </div>
+    </header>
+
+    <!-- Dashboard de Estadísticas en Tiempo Real -->
+    <div class="admin-dashboard">
+        <div class="stat-card">
+            <span class="stat-icon">📦</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-total">0</span>
+                <span class="stat-label">Total Pedidos</span>
+            </div>
+        </div>
+        <div class="stat-card urgent">
+            <span class="stat-icon">⏳</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-pending">0</span>
+                <span class="stat-label">Pendientes</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <span class="stat-icon">👨‍🍳</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-preparing">0</span>
+                <span class="stat-label">Preparando</span>
+            </div>
+        </div>
+        <div class="stat-card ready">
+            <span class="stat-icon">✅</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-ready">0</span>
+                <span class="stat-label">Listos</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <span class="stat-icon">🎉</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-delivered">0</span>
+                <span class="stat-label">Entregados</span>
+            </div>
+        </div>
+        <div class="stat-card revenue">
+            <span class="stat-icon">💰</span>
+            <div class="stat-info">
+                <span class="stat-value" id="stat-revenue">$0</span>
+                <span class="stat-label">Ingresos Totales</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="status-filter">
+        <button class="filter-btn active" data-status="all">Todos</button>
+        <button class="filter-btn" data-status="pendiente">Pendiente ⏳</button>
+        <button class="filter-btn" data-status="preparando">Preparando 👨‍🍳</button>
+        <button class="filter-btn" data-status="listo">Listo ✅</button>
+        <button class="filter-btn" data-status="entregado">Entregado 🎉</button>
+    </div>
+
+    <div id="admin-orders-container" class="admin-orders-container">
+        <!-- Orders will be rendered here -->
+    </div>
+</section>
+

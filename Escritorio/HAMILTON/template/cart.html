@@ -1,0 +1,26 @@
+<section class="cart-section">
+    <header class="cart-header">
+        <h2>🛒 Tu Carrito</h2>
+        <a href="#menu" class="back-btn">← Volver al Menú</a>
+    </header>
+
+    <div id="cart-empty" class="cart-empty">
+        <p>Tu carrito está vacío</p>
+        <a href="#menu" class="btn-primary">Ver Menú</a>
+    </div>
+
+    <div id="cart-content" class="cart-content" style="display: none;">
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be rendered here -->
+        </div>
+
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Total:</span>
+                <span id="cart-total">$0</span>
+            </div>
+            <button id="confirm-order" class="btn-primary">Confirmar Pedido</button>
+        </div>
+    </div>
+</section>
+
