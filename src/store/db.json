@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Juan Jo",
+            "email": "test@gmail.com",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "name": "Juan",
+            "email": "test2@gmail.com",
+            "role": "user"
+        }
+    ],
+    "menu": [
+        {
+            "id": 1,
+            "src_image": "",
+            "name": "burguer double cheesse",
+            "price": 100,
+            "category": "Burguer",
+            "cont" : 0
+        },
+        {
+            "id": 2,
+            "src_image": "",
+            "name": "burguer double beacon",
+            "price": 100,
+            "category": "Burguer",
+            "cont" : 0
+        },
+        {
+            "id": 3,
+            "src_image": "",
+            "name": "burguer double meat",
+            "price": 100,
+            "category": "Burguer",
+            "cont" : 0
+        }
+    ]
+}
