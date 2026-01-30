@@ -110,6 +110,45 @@
       "total": 8000,
       "status": "entregado",
       "createdAt": "2026-01-29T18:29:36.882Z"
+    },
+    {
+      "id": "d7cd",
+      "userId": "1",
+      "items": [
+        {
+          "id": "1",
+          "name": "Hamburguesa Clásica",
+          "price": 15000,
+          "quantity": 5
+        },
+        {
+          "id": "4",
+          "name": "Aros de Cebolla",
+          "price": 9000,
+          "quantity": 4
+        },
+        {
+          "id": "6",
+          "name": "Limonada Natural",
+          "price": 6000,
+          "quantity": 3
+        },
+        {
+          "id": "8",
+          "name": "Helado de Vainilla",
+          "price": 7000,
+          "quantity": 4
+        },
+        {
+          "id": "7",
+          "name": "Postel de Chocolate",
+          "price": 12000,
+          "quantity": 4
+        }
+      ],
+      "total": 205000,
+      "status": "listo",
+      "createdAt": "2026-01-30T14:57:50.706Z"
     }
   ],
   "sesion": null
