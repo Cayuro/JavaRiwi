@@ -6,8 +6,8 @@
       "email": "juan_gomez@g.com",
       "age": "25",
       "city": "Medellín",
-      "password": "000",
-      "role": "user"
+      "password": "12345",
+      "role": "admin"
     },
     {
       "id": "2",
@@ -25,7 +25,7 @@
       "age": "43",
       "city": "Medellín",
       "password": "010",
-      "role": "admin"
+      "role": "user"
     },
     {
       "id": "4",
@@ -147,8 +147,41 @@
         }
       ],
       "total": 205000,
-      "status": "listo",
+      "status": "entregado",
       "createdAt": "2026-01-30T14:57:50.706Z"
+    },
+    {
+      "id": "4ea7",
+      "userId": "2",
+      "items": [
+        {
+          "id": "1",
+          "name": "Hamburguesa Clásica",
+          "price": 15000,
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Hamburguesa con Queso",
+          "price": 18000,
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Papas Fritas",
+          "price": 8000,
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Aros de Cebolla",
+          "price": 9000,
+          "quantity": 1
+        }
+      ],
+      "total": 50000,
+      "status": "pendiente",
+      "createdAt": "2026-02-02T00:29:17.383Z"
     }
   ],
   "sesion": null
