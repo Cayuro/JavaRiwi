@@ -71,6 +71,7 @@ function renderProducts(products) {
     // Usar map para renderizar productos
     container.innerHTML = products.map(product => `
         <div class="product-card" data-id="${product.id}">
+            <img src="${product.image}" alt="${product.name}" class="product-image">
             <div class="product-info">
                 <h3>${product.name}</h3>
                 <p class="product-description">${product.description || ''}</p>
