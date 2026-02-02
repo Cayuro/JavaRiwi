@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Juan",
+      "email": "user@test.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Admin",
+      "email": "admin@test.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "c0d8",
+      "name": "juanes",
+      "email": "juan_gomez2000@hotmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "231a",
+      "name": "jj",
+      "email": "ricardogiraldoc@hotmail.com",
+      "password": "12345",
+      "role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2e58",
+      "userId": "c0d8",
+      "total": 29376,
+      "createdAt": "2026-02-02T01:48:40.734Z"
+    },
+    {
+      "id": "2b0c",
+      "userId": "c0d8",
+      "total": 12690,
+      "createdAt": "2026-02-02T01:48:42.941Z"
+    },
+    {
+      "id": "2d79",
+      "userId": "c0d8",
+      "total": 18056,
+      "createdAt": "2026-02-02T01:48:45.325Z"
+    }
+  ]
+}
