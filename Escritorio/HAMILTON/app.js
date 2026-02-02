@@ -1,7 +1,6 @@
 import { routes } from "./router/routes.js";
 import { initHome } from "./views/home.js";
 import { initLogin, handleLogin } from "./views/login.js";
-import { initRegister } from "./views/register.js";
 import { initMenu } from "./views/menu.js";
 import { initCart } from "./views/cart.js";
 import { initMyOrders } from "./views/myOrders.js";
@@ -55,7 +54,6 @@ export const isProtectedRoute = (path) => {
 // View handlers registry
 const viewHandlers = {
     "#login": initLogin,
-    "#register": initRegister,
     "#home": initHome,
     "#menu": initMenu,
     "#cart": initCart,

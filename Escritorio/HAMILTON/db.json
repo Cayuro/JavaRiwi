@@ -43,64 +43,56 @@
       "name": "Hamburguesa Clásica",
       "price": 15000,
       "category": "Hamburguesas",
-      "description": "Carne de res, lechuga, tomate, cebolla",
-      "image": "https://via.placeholder.com/300x200?text=Hamburguesa+Clasica"
+      "description": "Carne de res, lechuga, tomate, cebolla"
     },
     {
       "id": "2",
       "name": "Hamburguesa con Queso",
       "price": 18000,
       "category": "Hamburguesas",
-      "description": "Carne de res, queso cheddar, lechuga",
-      "image": "https://via.placeholder.com/300x200?text=Hamburguesa+con+Queso"
+      "description": "Carne de res, queso cheddar, lechuga"
     },
     {
       "id": "3",
       "name": "Papas Fritas",
       "price": 8000,
       "category": "Acompañantes",
-      "description": "Papas crujientes con sal",
-      "image": "https://via.placeholder.com/300x200?text=Papas+Fritas"
+      "description": "Papas crujientes con sal"
     },
     {
       "id": "4",
       "name": "Aros de Cebolla",
       "price": 9000,
       "category": "Acompañantes",
-      "description": "Aros empanizados crujientes",
-      "image": "https://via.placeholder.com/300x200?text=Aros+de+Cebolla"
+      "description": "Aros empanizados crujientes"
     },
     {
       "id": "5",
       "name": "Gaseosa Cola",
       "price": 5000,
       "category": "Bebidas",
-      "description": "500ml",
-      "image": "https://via.placeholder.com/300x200?text=Gaseosa+Cola"
+      "description": "500ml"
     },
     {
       "id": "6",
       "name": "Limonada Natural",
       "price": 6000,
       "category": "Bebidas",
-      "description": "Limonada con hielo",
-      "image": "https://via.placeholder.com/300x200?text=Limonada+Natural"
+      "description": "Limonada con hielo"
     },
     {
       "id": "7",
-      "name": "Postre de Chocolate",
+      "name": "Postel de Chocolate",
       "price": 12000,
       "category": "Postres",
-      "description": "Bizcocho de chocolate con relleno",
-      "image": "https://via.placeholder.com/300x200?text=Postre+de+Chocolate"
+      "description": "Bizcocho de chocolate con relleno"
     },
     {
       "id": "8",
       "name": "Helado de Vainilla",
       "price": 7000,
       "category": "Postres",
-      "description": "3 bolas de helado",
-      "image": "https://via.placeholder.com/300x200?text=Helado+de+Vainilla"
+      "description": "3 bolas de helado"
     }
   ],
   "pedidos": [
